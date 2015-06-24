@@ -1,0 +1,50 @@
+body {
+
+}
+.contact-box {
+    width: 900px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 400px;
+    max-height: 900px;
+    border: 1px dotted green;
+    padding: 0 20px;
+    box-sizing: content-box;
+    /* padding: 40px; */
+}
+
+.contact-box form {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    overflow: hidden;
+}
+
+.contact-box h3, .contact-box h5 {
+    margin: 0;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.contact-box form button {
+    width: 100%;
+}
+
+.contact-box__list {
+    display: inline-block;
+    width: 580px;
+    float: right;
+    vertical-align: top;
+    list-style: none;
+    max-height: 400px;
+    overflow-x: scroll;
+}
+
+.contact-box__list table tbody tr {
+    /* cursor: pointer; */
+}
